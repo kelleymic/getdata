@@ -36,11 +36,11 @@ input files for getData1.R
 
 - 'train/X_train.txt': Training set. dimensions: 7352 x 561 (fixed width and space delimited)
 - 'train/y_train.txt': Training labels. dimensions: 7352 x 1  = coded activity labels
-- 'train/subject_train.txt':  dimensions: 7352 x 1
+- 'train/subject_train.txt':  Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.  dimensions: 7352 x 1
 
 - 'test/X_test.txt': Test set.  dimensions: 2947 x 561 (fixed width and space delimited)
 - 'test/y_test.txt': Test labels.  dimensions: 2947 x 1
-- 'test/subject_test.txt'  dimensions: 2947 x 1
+- 'test/subject_test.txt'  Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.  dimensions: 2947 x 1
 
 
 getData2.R
