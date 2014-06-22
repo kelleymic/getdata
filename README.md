@@ -29,6 +29,20 @@ getData1.R
 4.  Join rows of training and test dataframes to create the final tidy dataset.  
 5.  Write the final tidy dataset to output files called output1.csv and output1.txt (two file formats of same data).  
 
+input files for getData1.R
+
+- 'features.txt': List of all features.  dimensions 561 x 2
+- 'activity_labels.txt': Links the class labels with their activity name.  dimensions 6 x 2
+
+- 'train/X_train.txt': Training set. dimensions: 7352 x 561 (fixed width and space delimited)
+- 'train/y_train.txt': Training labels. dimensions: 7352 x 1  = coded activity labels
+- 'train/subject_train.txt':  dimensions: 7352 x 1
+
+- 'test/X_test.txt': Test set.  dimensions: 2947 x 561 (fixed width and space delimited)
+- 'test/y_test.txt': Test labels.  dimensions: 2947 x 1
+- 'test/subject_test.txt'  dimensions: 2947 x 1
+
+
 getData2.R
 -  Create a second dataframe of averages for each feature by subject and activity
 -  requires tidy dataset to be in R with name of tidydf
