@@ -16,8 +16,8 @@ This README file explains:
 2.  How all of the scripts work and how they are connected
 
 run_analysis.R
-- performs creates the two required tidy datasets as described in the assignment
-- runs sequentially two R scripts
+- creates the two required tidy datasets as described in the assignment
+- runs sequentially two R scripts, getData1.R and getData2.R
 
 getData1.R
 - creates the required tidy data set from raw data
